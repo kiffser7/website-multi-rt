@@ -32,8 +32,8 @@ const Kontakpage = () => {
           />
           <textarea
             name="pesan"
-            cols="30"
-            rows="10"
+            cols={30}
+            rows={10}  
             required
             placeholder="Pesan"
             className="p-3 bg-white rounded-lg"
